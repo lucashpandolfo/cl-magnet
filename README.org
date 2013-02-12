@@ -1,7 +1,7 @@
 * Cl-Magnet  - A magnet link decoder for common lisp
 
 ** Usage
-#+begin_src lisp
+#+BEGIN_SRC lisp
 (cl-magnet:parse "magnet:?xt=urn:ed2k:31D6CFE0D16AE931B73C59D7E0C089C0&xl=0&dn=zero_len.fil&xt=urn:bitprint:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ.LWPNACQDBZRYXW3VHJVCJ64QBZNGHOHHHZWCLNQ&xt=urn:md5:D41D8CD98F00B204E9800998ECF8427E")
 => #<CL-MAGNET::MAGNET {1006EF96F3}>
 
@@ -16,7 +16,7 @@
   #(93 158 208 10 3 14 99 139 219 117 58 106 36 251 144 14 90 99 184 231 62 108
     37 182 0))
  (:ED2K #(49 214 207 224 209 106 233 49 183 60 89 215 224 192 137 192)))
-#+end_src
+#+END_SRC
 
 ** Dependencies
    - ironclad
@@ -27,10 +27,10 @@
 
 ** Installation
 
-#+begin_src bash
+#+BEGIN_SRC bash
 cd ~/quicklisp/local-projects
 git clone https://github.com/lucashpandolfo/cl-magnet.git
-#+end_src
+#+END_SRC
 
 ** Observations
 
