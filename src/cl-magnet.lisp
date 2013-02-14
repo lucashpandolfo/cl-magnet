@@ -101,6 +101,7 @@
 
 @export
 (defun parse (string)
+  "Parse a magnet url and create a magnet object"
   (unless (is-magnet string)
     (error "Not a magnet link (~a)" string))
   (let ((magnet (make-instance 'magnet))
